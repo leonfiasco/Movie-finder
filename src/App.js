@@ -28,15 +28,15 @@ class App extends Component {
   }
 
 
-  render() {     
-    return (
-      <div className="App">
-          <Nav />
-          <SearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange}/>
-          <MovieList movies={this.state.movies} />
-      </div>
-    );
-  }
+    render() {           
+      return (
+        <div className="App">
+            <Nav />
+            <SearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange}/>
+            <MovieList movies={this.state.movies} />
+        </div>
+      );
+    }
   }
 
 
